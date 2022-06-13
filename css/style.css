@@ -138,6 +138,100 @@
     border-radius: 25%;
 }
 
+/* ----------MAIN IDIOMAS----------- */
+.mainidiomas{
+    background-color: #e5e5e5;
+    position: relative;
+    min-height: 77vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 500px;
+    height: 450px;
+    border: blue 2px solid;
+    margin: 15px;
+    border-radius: 2%;
+}
+
+.ingles {
+    background-image: url(../imagenes/Como-mejorar-tu-ingles\ \(1\).jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.ingles button {
+    background-color: rgba(4, 151, 196, 0.555);
+    position: absolute;
+    left: 85%;
+    bottom: 3px;
+    font-size: 20px;
+    border: rgba(4, 151, 196, 0.555) 1px solid;
+    border-radius: 13%;
+    cursor: pointer;
+    font-family: 'Akshar', sans-serif;
+}
+
+.ingles button:hover {
+    background-color: rgba(0, 0, 255, 0.267);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.italiano {
+    background-image: url(../imagenes/Parli-Italiano-4\ \(1\).png);
+    background-size: cover;
+    position: relative;
+}
+
+.italiano button {
+    background-color: rgba(4, 151, 196, 0.555);
+    position: absolute;
+    left: 84%;
+    bottom: 3px;
+    font-size: 20px;
+    border: rgba(4, 151, 196, 0.555) 1px solid;
+    border-radius: 13%;
+    cursor: pointer;
+    font-family: 'Akshar', sans-serif;
+}
+
+.italiano button:hover {
+    background-color: rgba(0, 0, 255, 0.267);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.portugues {
+    background-image: url(../imagenes/portugues\ \(1\).jpg);
+    position: relative;
+}
+
+.portugues button {
+    background-color: rgba(4, 151, 196, 0.555);
+    position: absolute;
+    left: 85%;
+    bottom: 3px;
+    font-size: 20px;
+    border: rgba(4, 151, 196, 0.555) 1px solid;
+    border-radius: 13%;
+    cursor: pointer;
+    font-family: 'Akshar', sans-serif;
+}
+
+.portugues button:hover {
+    background-color: rgba(0, 0, 255, 0.644);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+
+
+
 @media (max-width:768px) {
     .contenedor{
         grid-template-areas:
